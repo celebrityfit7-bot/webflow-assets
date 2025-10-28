@@ -1,5 +1,9 @@
 
-  .inl {
+  
+a {
+text-decoration: none !important;
+}
+.inl {
 	 display: inline-block;
   }
   
