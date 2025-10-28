@@ -1,36 +1,123 @@
+
+  .inl {
+	 display: inline-block;
+  }
+  
+  .product {
+	 display: block;
+	 margin: 20px 0;
+	 border: 1px solid #000000;
+  }
+  
+  .product h1 {
+	 display: block;
+	 margin: 0 0;
+	 padding: 0;
+	 box-sizing: border-box;
+	 font-size: 30px;
+	 line-height: 40px;
+	 font-weight: normal;
+	 background-color: #000000;
+	 padding: 20px;
+	 box-sizing: border-box;
+	 color: #fff;
+  }
+  
+  .product .product-inner {
+	 padding: 20px;
+	 box-sizing: border-box;
+  }
+  
+  .product .product-inner .product-left {
+	 width: 35%;
+	 vertical-align: middle;
+	 padding: 0 20px;
+	 box-sizing: border-box;
+  }
+  
+  .product .product-inner .product-left img {
+	 display: block;
+	 margin: 0 auto;
+	 width: 100%;
+  }
+  
+  .product .product-inner .product-right {
+	 width: 64%;
+	 vertical-align: middle;
+	 text-align: center;
+  }
+  
+  .product .product-inner .product-right img {
+	 display: block;
+	 margin: 20px auto;
+	 width: auto;
+	 max-height: 240px;
+  }
+  
+  .product img {
+	 display: block;
+	 width: 100%;
+  }
+  
+  .product img.bottle {
+	 display: block;
+	 max-height: 250px;
+	 width: auto;
+	 margin: 0 auto;
+  }
+  
+  .product h2 {
+	 display: block;
+	 font-size: 25px;
+	 line-height: 30px;
+	 margin: 20px 0px;
+	 color: #000;
+  }
+  
+  @media screen and (max-width: 769px) {
+	 .product-right,
+	 .product-left {
+		width: 100% !important;
+	 }
+	 .product-left img {
+		width: 60% !important;
+	 }
+  }
+
+
 img {
-          max-width: 100%;
-          object-fit: contain;
-      }
-      
-      .template-two-col.container-full-width,
-      .template-two-col .container-full-width {
-          max-width: 1100px;
-      }
-      
-      @media (min-width: 1024px) {
-          .articleContainer__header {
-            width: 800px;
-          }
-      }
-      
-      .mobileHide {
-          display: none;
-      }
-      
-      article {
-          margin: 0 auto;
-      }
-      
-      @media (min-width: 1200px) {
-          .mobileHide {
-            display: flex;
-          }
-          .mdex-test.template-article .article-container {
-            max-width: 800px;
-            margin: 0;
-          }
-      }
+	  max-width: 100%;
+	  object-fit: contain;
+  }
+  
+  .template-two-col.container-full-width,
+  .template-two-col .container-full-width {
+	  max-width: 1100px;
+  }
+  
+  @media (min-width: 1024px) {
+	  .articleContainer__header {
+		width: 800px;
+	  }
+  }
+  
+  .mobileHide {
+	  display: none;
+  }
+  
+  article {
+	  margin: 0 auto;
+  }
+  
+  @media (min-width: 1200px) {
+	  .mobileHide {
+		display: flex;
+	  }
+	  .mdex-test.template-article .article-container {
+		max-width: 800px;
+		margin: 0;
+	  }
+  }
   
 
 
