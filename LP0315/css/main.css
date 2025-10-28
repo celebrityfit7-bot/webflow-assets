@@ -5357,8 +5357,19 @@ a.wt-link-secondary:link{
 	}
 
 
+
+/* Icons.font.js */
 @media (min-width: 1024px) {
     .articlecontainer__header {
         width: 800px;
+    }
+}
+
+.mobilehide {
+    display: none;
+}
+@media (min-width: 1200px) {
+    .mobilehide {
+        display: flex;
     }
 }
