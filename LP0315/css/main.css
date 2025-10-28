@@ -5356,6 +5356,7 @@ a.wt-link-secondary:link{
 	  pointer-events: auto;
 	}
 
+
 @media (min-width: 1024px) {
     .articlecontainer__header {
         width: 800px;
