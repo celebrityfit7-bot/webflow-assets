@@ -5355,3 +5355,9 @@ a.wt-link-secondary:link{
 	  color: var(--lns-color-body);
 	  pointer-events: auto;
 	}
+
+@media (min-width: 1024px) {
+    .articlecontainer__header {
+        width: 800px;
+    }
+}
